@@ -1,0 +1,70 @@
+cradle:
+  cabal:
+    - path: "foreign-inference/src"
+      component: "lib:foreign-inference"
+
+    - path: "foreign-inference/tests"
+      component: "foreign-inference:test:ArrayTests"
+
+    - path: "foreign-inference/tests"
+      component: "foreign-inference:test:NullableTests"
+
+    - path: "foreign-inference/tests"
+      component: "foreign-inference:test:RefCountTests"
+
+    - path: "foreign-inference/tests"
+      component: "foreign-inference:test:FinalizerTests"
+
+    - path: "foreign-inference/tests"
+      component: "foreign-inference:test:AllocatorTests"
+
+    - path: "foreign-inference/tests"
+      component: "foreign-inference:test:OutputTests"
+
+    - path: "foreign-inference/tests"
+      component: "foreign-inference:test:InstructionEscapeTests"
+
+    - path: "foreign-inference/tests"
+      component: "foreign-inference:test:IndirectCallTests"
+
+    - path: "foreign-inference/tests"
+      component: "foreign-inference:test:TransferTests"
+
+    - path: "foreign-inference/tests"
+      component: "foreign-inference:test:SAPTests"
+
+    - path: "foreign-inference/tests"
+      component: "foreign-inference:test:SAPArgumentTests"
+
+    - path: "foreign-inference/tests"
+      component: "foreign-inference:test:SAPFinalizeTests"
+
+    - path: "iiglue/iiglue/Main.hs"
+      component: "iiglue:exe:iiglue"
+
+    - path: "iiglue/iitables/Main.hs"
+      component: "iiglue:exe:iitables"
+
+    - path: "llvm-analysis/src"
+      component: "lib:llvm-analysis"
+
+    - path: "llvm-analysis/tests"
+      component: "llvm-analysis:test:CallGraphTests"
+
+    - path: "llvm-analysis/tests"
+      component: "llvm-analysis:test:BlockReturnTests"
+
+    - path: "llvm-analysis/tests"
+      component: "llvm-analysis:test:ReturnTests"
+
+    - path: "llvm-analysis/tests"
+      component: "llvm-analysis:test:AccessPathTests"
+
+    - path: "llvm-analysis/tests"
+      component: "llvm-analysis:test:ClassHierarchyTests"
+
+    - path: "llvm-analysis/tests"
+      component: "llvm-analysis:test:AndersenTests"
+
+    - path: "llvm-pretty-referential/src"
+      component: "lib:llvm-pretty-referential"

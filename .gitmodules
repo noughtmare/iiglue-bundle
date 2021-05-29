@@ -1,0 +1,12 @@
+[submodule "llvm-analysis"]
+	path = llvm-analysis
+	url = git@github.com:noughtmare/llvm-analysis.git
+[submodule "llvm-pretty-referential"]
+	path = llvm-pretty-referential
+	url = git@github.com:noughtmare/llvm-pretty-referential.git
+[submodule "foreign-inference"]
+	path = foreign-inference
+	url = git@github.com:noughtmare/foreign-inference.git
+[submodule "iiglue"]
+	path = iiglue
+	url = git@github.com:noughtmare/iiglue.git

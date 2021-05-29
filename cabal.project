@@ -1,0 +1,38 @@
+packages:
+  llvm-analysis/*.cabal
+  llvm-pretty-referential/*.cabal
+  foreign-inference/*.cabal
+  iiglue/*.cabal
+
+source-repository-package
+    type: git
+    location: https://github.com/travitch/hbgl-experimental.git
+    tag: bc044b6ea923e43c2f946ef8e9c5227c9e7b4df3
+
+source-repository-package
+    type: git
+    location: https://github.com/noughtmare/llvm-pretty-bc-parser.git
+    tag: e8f4ba3c0145c0e198377f9f7e38a3ecfa78e642 
+
+source-repository-package
+    type: git
+    location: https://github.com/elliottt/llvm-pretty.git
+    tag: 8456623f243a47aa42693617fa22abbfac22a528 
+
+source-repository-package
+    type: git
+    location: https://github.com/travitch/ifscs.git
+    tag: e67c3c71306865af70a50755ab1333d329b2ae16
+
+source-repository-package
+    type: git
+    location: https://github.com/travitch/archive-inspection.git
+    tag: dfa4d5eb6a32731b21370d71a20f3b837678cd05
+
+allow-newer: hoopl-3.10.2.2:base
+           , hoopl-3.10.2.2:containers
+           , archive-inspection:blaze-builder
+           , archive-inspection:tar
+           , archive-inspection:zip-archive
+
+with-compiler: ghc-8.10.4
