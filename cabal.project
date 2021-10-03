@@ -1,8 +1,4 @@
-packages:
-  llvm-analysis/*.cabal
-  llvm-pretty-referential/*.cabal
-  foreign-inference/*.cabal
-  iiglue/*.cabal
+packages: */*.cabal
 
 source-repository-package
     type: git
@@ -11,8 +7,8 @@ source-repository-package
 
 source-repository-package
     type: git
-    location: https://github.com/noughtmare/llvm-pretty-bc-parser.git
-    tag: e8f4ba3c0145c0e198377f9f7e38a3ecfa78e642 
+    location: https://github.com/GaloisInc/llvm-pretty-bc-parser.git
+    tag: bea158b759d7315cdb4f4c4a364c9fd2c2f9b5a4
 
 source-repository-package
     type: git
